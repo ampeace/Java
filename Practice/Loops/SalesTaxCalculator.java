@@ -1,7 +1,7 @@
 import java.util.*;
 
 // Class that contains overloaded methods
-class SalesTaxCalculator {
+class SalesTaxCalculato {
 
     // Method for integer inputs
     // Calculates final price using integer values
@@ -18,7 +18,7 @@ class SalesTaxCalculator {
     }
 }
 
-public class Main {
+public class SalesTaxCalculator{
     public static void main(String[] args) {
 
         // Scanner object to take input
@@ -33,10 +33,10 @@ public class Main {
         double doubleTaxRate = scanner.nextDouble(); // tax rate as double
 
         // Calling overloaded method for integer values
-        int finalPriceInt = SalesTaxCalculator.calculateFinalPrice(intPrice, intTaxRate);
+        int finalPriceInt = SalesTaxCalculato.calculateFinalPrice(intPrice, intTaxRate);
 
         // Calling overloaded method for double values
-        double finalPriceDouble = SalesTaxCalculator.calculateFinalPrice(doublePrice, doubleTaxRate);
+        double finalPriceDouble = SalesTaxCalculato.calculateFinalPrice(doublePrice, doubleTaxRate);
 
         // Printing integer result
         System.out.println(finalPriceInt);
