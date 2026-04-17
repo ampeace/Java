@@ -14,7 +14,7 @@ class Summation {
     }
 }
 
-public class SyumS {
+public class Sum {
     public static void main(String[] args) {
 
         // Scanner to take input
